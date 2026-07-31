@@ -4,28 +4,31 @@ body{
     background-color: #80C5F7;
 }
 
+header{
+    display: flex;
+    background-color: rgba(26, 26, 28, 0.858);
+   align-items: center;
+   justify-content: space-between; /*separa os itens */
+   padding: 20px;
+}
+
+.home{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    text-decoration:  none;
+    color: azure;
+}
+
+
+
 h1{
     text-align: center;
     color: aliceblue;
 }
 
-.texto-principal{
-    margin-top: 50px;
-}
 
-.ban{
-    display: block;
-    width: 1;
-    height: auto;
-}
 
-.capa-principal{
-    display: block;
-    width: 300px;
-    height: 400px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .botao-comprar{
     display: block; /* ocupa o espaço todo */
